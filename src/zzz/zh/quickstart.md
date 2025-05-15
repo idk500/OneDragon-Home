@@ -1,8 +1,6 @@
 ---
 lang: zh-CN
 title: 绝区零 一条龙 快速开始
-author: DoctorReid
-date: 2024-09-01
 ---
 
 > [!important]

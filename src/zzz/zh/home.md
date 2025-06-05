@@ -8,17 +8,17 @@ title: 绝区零 一条龙
 
 绝区零 基于图像识别的全自动小助手，用于 Windows PC端。
 
-如果觉得项目对你有帮助，不妨到[Github主页](https://github.com/DoctorReid/ZenlessZoneZero-OneDragon)点个Star
+如果觉得项目对你有帮助，不妨到[Github主页](https://github.com/OneDragon-Anything/ZenlessZoneZero-OneDragon)点个Star
 
 ![应用展示](/images/zzz/zzz_app.png)
 <div align="center">
     <div>
         <img alt="platform" src="https://img.shields.io/badge/platform-Windows-blueviolet">
-        <img alt="commit" src="https://img.shields.io/github/commit-activity/m/DoctorReid/ZenlessZoneZero-OneDragon?color=blue">
+        <img alt="commit" src="https://img.shields.io/github/commit-activity/m/OneDragon-Anything/ZenlessZoneZero-OneDragon?color=blue">
     </div>
     <div>
-        <img alt="stars" src="https://img.shields.io/github/stars/DoctorReid/ZenlessZoneZero-OneDragon?style=social">
-        <img alt="GitHub all releases" src="https://img.shields.io/github/downloads/DoctorReid/ZenlessZoneZero-OneDragon/total?style=social">
+        <img alt="stars" src="https://img.shields.io/github/stars/OneDragon-Anything/ZenlessZoneZero-OneDragon?style=social">
+        <img alt="GitHub all releases" src="https://img.shields.io/github/downloads/OneDragon-Anything/ZenlessZoneZero-OneDragon/total?style=social">
     </div>
     <br>
 </div>
@@ -49,12 +49,12 @@ title: 绝区零 一条龙
 
 感谢所有参与到开发的朋友们~
 
-![Contributors](https://contrib.rocks/image?repo=DoctorReid/ZenlessZoneZero-OneDragon)
+![Contributors](https://contrib.rocks/image?repo=OneDragon-Anything/ZenlessZoneZero-OneDragon)
 
 ## 赞助
 
 如果喜欢本项目，可以为本站点赞助点维护费用~
 
-感谢 [小伙伴们的赞赏](https://github.com/DoctorReid/OneDragon-Thanks)
+感谢 [小伙伴们的赞赏](https://github.com/OneDragon-Anything/OneDragon-Thanks)
 
 ![微信赞赏](/images/sponsor_wechat.png)

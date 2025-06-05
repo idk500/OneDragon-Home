@@ -25,7 +25,7 @@ title: 功能-零号空洞-迷失之地
 对于模型下载失败，可以用以下2种方式下载
 
 - QQ群共享文件下载
-- [本链接](https://github.com/DoctorReid/OneDragon-YOLO/releases/tag/zzz_model) 中下载文件名包含 lost_void 的
+- [本链接](https://github.com/OneDragon-Anything/OneDragon-YOLO/releases/tag/zzz_model) 中下载文件名包含 lost_void 的
 
 最终模型应该存放的路径 `assets/models/lost_void_det/` 的子文件夹 (例如 `yolov8s-736-lost-void-det-1228`) 下。
 

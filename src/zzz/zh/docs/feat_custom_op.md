@@ -19,7 +19,7 @@ title: 功能-自定义指令
 4. 连携技换人后，我需要先切换妮可，触发`快速支援`。`快速支援按钮`的出现，是 `特殊事件触发操作` 。
 5. 最后，朱鸢登场后，不断长按普攻清空弹匣。这是 `常规循环操作`。
 
-下述就以这个 [例子](https://github.com/DoctorReid/ZenlessZoneZero-OneDragon/blob/main/config/auto_battle/%E6%96%87%E6%A1%A3%E8%AE%B2%E8%A7%A3%E7%A4%BA%E4%BE%8B.sample.yml) 让你初步了解自定义指令以及如何编写。
+下述就以这个 [例子](https://github.com/OneDragon-Anything/ZenlessZoneZero-OneDragon/blob/main/config/auto_battle/%E6%96%87%E6%A1%A3%E8%AE%B2%E8%A7%A3%E7%A4%BA%E4%BE%8B.sample.yml) 让你初步了解自定义指令以及如何编写。
 
 注意：本例子仅为讲解而拼凑内容写出，无法用于实战。
 
@@ -276,7 +276,7 @@ scenes:
   - state_template: "站场模板-击破站场"
 ```
 
-这里表示，在不满足第一个状态判断 (粗略判断怪物失衡) 的情况下，接下来的状态判断引用模板 [站场模板-击破站场](https://github.com/DoctorReid/ZenlessZoneZero-OneDragon/blob/main/config/auto_battle_state_handler/%E7%AB%99%E5%9C%BA%E6%A8%A1%E6%9D%BF-%E5%87%BB%E7%A0%B4%E7%AB%99%E5%9C%BA.sample.yml)
+这里表示，在不满足第一个状态判断 (粗略判断怪物失衡) 的情况下，接下来的状态判断引用模板 [站场模板-击破站场](https://github.com/OneDragon-Anything/ZenlessZoneZero-OneDragon/blob/main/config/auto_battle_state_handler/%E7%AB%99%E5%9C%BA%E6%A8%A1%E6%9D%BF-%E5%87%BB%E7%A0%B4%E7%AB%99%E5%9C%BA.sample.yml)
 
 场景模板的存放位置为 `config/auto_battle_state_handler`。
 
@@ -341,7 +341,7 @@ handlers:
 
 同理，指令也可以抽出来做模板复用，后续指令模板还可以当输入宏使用，结合闪避助手变成战斗助手。
 
-引用指令模板的方式，参考[站场模板-安比](https://github.com/DoctorReid/ZenlessZoneZero-OneDragon/blob/main/config/auto_battle_state_handler/%E7%AB%99%E5%9C%BA%E6%A8%A1%E6%9D%BF-%E5%AE%89%E6%AF%94.sample.yml)
+引用指令模板的方式，参考[站场模板-安比](https://github.com/OneDragon-Anything/ZenlessZoneZero-OneDragon/blob/main/config/auto_battle_state_handler/%E7%AB%99%E5%9C%BA%E6%A8%A1%E6%9D%BF-%E5%AE%89%E6%AF%94.sample.yml)
 
 在 `operations` 中，填入 `operation_template`。同样，引入模板后指令依然按顺序执行。
 
@@ -356,7 +356,7 @@ handlers:
         data: ...
 ```
 
-而一个指令模板的内容结构，参考[安比-3A特殊攻击](https://github.com/DoctorReid/ZenlessZoneZero-OneDragon/blob/main/config/auto_battle_operation/%E5%AE%89%E6%AF%94-3A%E7%89%B9%E6%AE%8A%E6%94%BB%E5%87%BB.sample.yml)
+而一个指令模板的内容结构，参考[安比-3A特殊攻击](https://github.com/OneDragon-Anything/ZenlessZoneZero-OneDragon/blob/main/config/auto_battle_operation/%E5%AE%89%E6%AF%94-3A%E7%89%B9%E6%AE%8A%E6%94%BB%E5%87%BB.sample.yml)
 
 模板中仅需包含 `指令 operations`，结构与上述的指令结构一致。
 
@@ -485,8 +485,8 @@ operations:
 
 说明:
 > - 互斥状态 : 该状态出现后，将会消除互斥状态的出现时间。例如，`前台-强攻`出现时，就会取消掉`前台-击破`的状态。
-> - 角色类型 : 包含内容见 [agent.py](https://github.com/DoctorReid/ZenlessZoneZero-OneDragon/blob/7f65a6720af88bd8f0a1ce02032b7d4ae03d499b/src/zzz_od/game_data/agent.py#L6)
-> - 角色名称 : 包含内容见 [agent.py](https://github.com/DoctorReid/ZenlessZoneZero-OneDragon/blob/7f65a6720af88bd8f0a1ce02032b7d4ae03d499b/src/zzz_od/game_data/agent.py#L54)
+> - 角色类型 : 包含内容见 [agent.py](https://github.com/OneDragon-Anything/ZenlessZoneZero-OneDragon/blob/7f65a6720af88bd8f0a1ce02032b7d4ae03d499b/src/zzz_od/game_data/agent.py#L6)
+> - 角色名称 : 包含内容见 [agent.py](https://github.com/OneDragon-Anything/ZenlessZoneZero-OneDragon/blob/7f65a6720af88bd8f0a1ce02032b7d4ae03d499b/src/zzz_od/game_data/agent.py#L54)
 > - 截图时间 : 截图后，脚本进行识别需要时间，因此状态实际是在`截图时间`触发。
 > - 按键结束时间 : 脚本执行的按键，人工输入按键不会记录。
 > - 切换角色后，部分状态需要下一次识别才能触发且准确。例如 按键可用-特殊攻击，上一个角色识别可用的情况下，切换到下一个角色时，需要重新判断才能识别是否可用。
@@ -874,7 +874,7 @@ check_quick_interval: [0.9, 1.1]
 
 你可以拆分成多个 `按下` 指令，每个指令是较短的时间，这样脚本能更好打断当前运行。
 
-参考 [朱鸢-蓄力3A](https://github.com/DoctorReid/ZenlessZoneZero-OneDragon/blob/main/config/auto_battle_operation/%E6%9C%B1%E9%B8%A2-%E8%93%84%E5%8A%9B3A.sample.yml)
+参考 [朱鸢-蓄力3A](https://github.com/OneDragon-Anything/ZenlessZoneZero-OneDragon/blob/main/config/auto_battle_operation/%E6%9C%B1%E9%B8%A2-%E8%93%84%E5%8A%9B3A.sample.yml)
 
 
 ### 3.7.指令长度

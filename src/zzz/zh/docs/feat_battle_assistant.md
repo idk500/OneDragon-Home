@@ -57,7 +57,7 @@ title: 功能-战斗助手
 
 ### 1.4.漏判误判
 
-相关情况可以到 [这里](https://github.com/DoctorReid/ZenlessZoneZero-OneDragon/issues/new?assignees=&labels=bug&projects=&template=02-bug-dodge-assistant.yml&title=%5B%E9%97%AE%E9%A2%98%E5%8F%8D%E9%A6%88%5D+%5B%E9%97%AA%E9%81%BF%E5%8A%A9%E6%89%8B%5D+) 反馈。请注明副本方便作者复现。
+相关情况可以到 [这里](https://github.com/OneDragon-Anything/ZenlessZoneZero-OneDragon/issues/new?assignees=&labels=bug&projects=&template=02-bug-dodge-assistant.yml&title=%5B%E9%97%AE%E9%A2%98%E5%8F%8D%E9%A6%88%5D+%5B%E9%97%AA%E9%81%BF%E5%8A%A9%E6%89%8B%5D+) 反馈。请注明副本方便作者复现。
 
 你也可以使用脚本的【开发工具】-【截图助手】，截取有问题的游戏截图后打包发给作者，截图会保存在 `.debug/images` 中。
 

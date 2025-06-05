@@ -17,3 +17,10 @@ title: 一条龙框架-RoadMap
 - 录制生成Operation
 - 订阅式添加脚本
 - 一条龙平台
+
+
+### 安装器改版
+
+1. 环境管理使用 uv
+2. 加入 mirror 酱更新方式
+3. Github打包流水线

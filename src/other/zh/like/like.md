@@ -8,7 +8,7 @@ title: 点赞
 最简单的方法，就是对应的Github主页右上角点一个Star
 
 - [崩坏·星穹铁道](https://github.com/DoctorReid/StarRailOneDragon)
-- [绝区零](https://github.com/DoctorReid/ZenlessZoneZero-OneDragon)
+- [绝区零](https://github.com/OneDragon-Anything/ZenlessZoneZero-OneDragon)
 
 ### 无法访问Github?
 

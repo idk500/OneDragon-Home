@@ -37,7 +37,7 @@ PC端：第七代英特尔酷睿i5，8G内存，英伟达GeForce GTX970及以上
 
 如果出现安装依赖失败，且你的电脑上曾经安装过anaconda，则可以卸载后anaconda重试本方法，或者使用 1.2 方法。
 
-1. 从 [最新 Release](https://github.com/DoctorReid/ZenlessZoneZero-OneDragon/releases/latest) 中下载 `ZenlessZoneZero-OneDragon-X.Y.Z.zip` (X.Y.Z 为版本号)
+1. 从 [最新 Release](https://github.com/OneDragon-Anything/ZenlessZoneZero-OneDragon/releases/latest) 中下载 `ZenlessZoneZero-OneDragon-X.Y.Z.zip` (X.Y.Z 为版本号)
 2. 如果你无法访问Github，或者下载速度慢，可以参考 [如何访问Github](../../other/zh/visit_github.md)，或者你可以加入 QQ群 861603314，从群文件中下载。
 3. 下载后解压，运行 `OneDragon Installer.exe`
 4. 安装器中，点击一键安装即可。 
@@ -65,7 +65,7 @@ conda create --name zzz-od python=3.11
 如果你懂得如何搭建python环境(推荐使用 3.11.9)，请使用本方法
 
 1. 创建你自己的虚拟环境
-2. `git clone git@github.com:DoctorReid/ZenlessZoneZero-OneDragon.git`
+2. `git clone git@github.com:OneDragon-Anything/ZenlessZoneZero-OneDragon.git`
 3. `pip install -r requirements-prod.txt`
 4. 运行 （以下二选一）
     - 复制 `env.sample.bat`，重命名为 `env.bat`，并修改内容为你的虚拟环境的 python 路径，使用 `OneDragon Launcher.exe` 运行。

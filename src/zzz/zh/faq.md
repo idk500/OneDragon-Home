@@ -23,18 +23,12 @@ title: 常见问题
 ## 软件怎么下载/更新
 
 #### ❓我要在哪里下载软件
-本软件目前有且仅有三个官方的下载渠道
-
-> - [github 的 Release 页面](https://github.com/OneDragon-Anything/ZenlessZoneZero-OneDragon/releases) 
-> - [Mirror酱](https://mirrorchyan.com/zh/projects?rid=ZZZ-OneDragon&source=zzzgh-release) 需要 Mirror CDK
-> - 我们的官方 QQ 群(861603314)
-
-任何其他渠道下载的版本我们都不做**技术支持和安全保障**
+[点击前往](/zzz/zh/quickstart.html#download-package)
 
 #### ❓我要如何更新软件
 一条龙可以被拆分成三个部分
 - 安装器  
-安装器是为了安装一条龙存在的，安装成功后除了大的重构另行通知，否则不需要更新  
+安装器是为了安装一条龙存在的，安装成功后可以删除
 - 运行代码  
 运行代码是一条龙的核心，会频繁的更新  
 每次启动脚本时会尝试一次自动更新，你也可以点击左下角的`代码同步`来进行手动更新
@@ -42,3 +36,5 @@ title: 常见问题
 **一条龙是基于图像识别，所以及时更新识别模型非常重要**  
 可以通过 `设置-资源下载` 进行模型的选择和更新，模型后面的数字为日期，一般来说越新越好  
 
+## 神秘带锁功能
+前往[官方频道](https://pd.qq.com/g/onedrag00n)寻找密码吧！

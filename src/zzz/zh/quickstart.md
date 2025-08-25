@@ -34,14 +34,16 @@ PC端：第七代英特尔酷睿i5，8G内存，英伟达GeForce GTX970及以上
 
 脚本请存放在 <span style="color:red"><strong>全英文的路径</strong></span> 下
 
+<a id="download-package"></a>
 - ### 下载安装包
 
-你可以在以下位置免费下载到一条龙最新的安装包
-> - [github 的 Release 页面](https://github.com/OneDragon-Anything/ZenlessZoneZero-OneDragon/releases) 
-> - [Mirror酱](https://mirrorchyan.com/zh/projects?rid=ZZZ-OneDragon&source=zzzgh-release) 需要 Mirror CDK
-> - 我们的官方 QQ 群(861603314)
+你可以在以下位置下载到一条龙最新的安装包
+> - [GitHub 的 Release 页面](https://github.com/OneDragon-Anything/ZenlessZoneZero-OneDragon/releases) 
+> - [Mirror酱](https://mirrorchyan.com/zh/projects?rid=ZZZ-OneDragon&source=zzzgh-release) 需要 Mirror CDK（不免费但是可以支持开发者的开发）
+> - 我们的官方[频道](https://pd.qq.com/g/onedrag00n)
+> - 我们的官方 QQ 群 (861603314)
 
-推荐下载带有 `-Full-Environment` 的完整包来避免网络环境导致的安装失败  
+推荐下载带有 `-Full-Environment` 的超完整包来避免网络环境导致的安装失败
 Mirror源默认下载的就是这个包
 
 ---
